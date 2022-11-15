@@ -1,0 +1,15 @@
+/home/andy/Dev/C#/newproject/src/NewProject/bin/Debug/net6.0/NewProject
+/home/andy/Dev/C#/newproject/src/NewProject/bin/Debug/net6.0/NewProject.deps.json
+/home/andy/Dev/C#/newproject/src/NewProject/bin/Debug/net6.0/NewProject.runtimeconfig.json
+/home/andy/Dev/C#/newproject/src/NewProject/bin/Debug/net6.0/NewProject.dll
+/home/andy/Dev/C#/newproject/src/NewProject/bin/Debug/net6.0/ref/NewProject.dll
+/home/andy/Dev/C#/newproject/src/NewProject/bin/Debug/net6.0/NewProject.pdb
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.csproj.AssemblyReference.cache
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.AssemblyInfoInputs.cache
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.AssemblyInfo.cs
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.csproj.CoreCompileInputs.cache
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.dll
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/ref/NewProject.dll
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.pdb
+/home/andy/Dev/C#/newproject/src/NewProject/obj/Debug/net6.0/NewProject.genruntimeconfig.cache
