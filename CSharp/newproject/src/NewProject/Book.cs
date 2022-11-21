@@ -2,13 +2,18 @@ namespace NewProject
 {
     public delegate void GradeAddedDelegate(object sender, EventArgs args);
 
-    public abstract class Book : NamedObject IBook
+    public abstract class Book : NamedObject, IBook
     {
         public Book(string name) : base(name)
         {
         }
 
+        public abstract event GradeAddedDelegate GradeAdded;
+
         public abstract void AddGrade(double Grade);
+
+        public abstract Statistic GetStatistic();
+
     }
 
     public interface IBook
@@ -19,7 +24,26 @@ namespace NewProject
         event GradeAddedDelegate GradeAdded;
     }
 
-    public class InMemoryBook : Book 
+    public class DiskBook : Book 
+    {
+        public DiskBook(string name) : base(name)
+        {
+        }
+
+        public override event GradeAddedDelegate GradeAdded;
+
+        public override void AddGrade(double Grade)
+        {
+            File.AppendText("Andy's gradebook.txt", );
+        }
+
+        public override Statistic GetStatistic()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class InMemoryBook : Book
     {
         private List<double>grades; 
 
@@ -53,7 +77,7 @@ namespace NewProject
             }
         }
 
-        public event GradeAddedDelegate GradeAdded = delegate { };
+        public override event GradeAddedDelegate GradeAdded = delegate { };
 
         public void ShowGrade()
         {
@@ -61,7 +85,7 @@ namespace NewProject
                 Console.WriteLine(number);
         }
 
-        public Statistic GetStatistic()
+        public override Statistic GetStatistic()
         {
             var result = new Statistic();
             result.Average = 0.0;

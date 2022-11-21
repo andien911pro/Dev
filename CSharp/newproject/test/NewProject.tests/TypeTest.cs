@@ -119,6 +119,8 @@ public class TypeTest
         Assert.Equal("Book 2", book2.Name);
         Assert.NotSame(book1, book2);
     }
+    
+    [Fact]
     public void TwoVarsCanReferencesSameObject()
     {
         var book1 = GetBook("Book 1");

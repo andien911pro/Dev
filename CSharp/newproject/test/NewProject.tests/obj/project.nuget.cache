@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sqriZuNthfK1neLwxJV7ArIf41wHEZzV/FP+Tt7tMy9CW8iepqwmmEL3BlRCPKfVR+lA/+2egPcJ9annABAzSQ==",
+  "dgSpecHash": "vQyJOQHShxRiHwKE2UYNkmkqNCk3ZfHRTsWWykrIkZ6xdtVjBviyNuYOcJ3V0zmMH4/sIaOzZKL4g7TdyVaZbQ==",
   "success": true,
-  "projectFilePath": "/home/andy/Dev/C#/newproject/test/NewProject.tests/NewProject.tests.csproj",
+  "projectFilePath": "/home/andy/Dev/CSharp/newproject/test/NewProject.tests/NewProject.tests.csproj",
   "expectedPackageFiles": [
     "/home/andy/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/home/andy/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",
@@ -96,7 +96,7 @@
     "/home/andy/.nuget/packages/xunit.extensibility.core/2.4.1/xunit.extensibility.core.2.4.1.nupkg.sha512",
     "/home/andy/.nuget/packages/xunit.extensibility.execution/2.4.1/xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "/home/andy/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "/home/andy/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.10/microsoft.aspnetcore.app.ref.6.0.10.nupkg.sha512"
+    "/home/andy/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

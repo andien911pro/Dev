@@ -6,12 +6,10 @@ namespace NewProject
     {
         static void Main(string[] args)
         {
-            var book = new InMemoryBook("Andy's gradebook");
+            IBook book = new DiskBook("Andy's gradebook");
             book.GradeAdded += OnGradeAdded;
 
             EnterGrade(book);
-
-            book.ShowGrade();
 
             var stats = book.GetStatistic();
             System.Console.WriteLine($"The highest grade is: {stats.High}");

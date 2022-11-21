@@ -1,6 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <vector>
+#include <string>
 
 std::vector<int> reverseArray(std::vector<int> &a) {
     int temp;
@@ -26,11 +27,19 @@ std::vector<int> reverseArray(std::vector<int> &a) {
     return a;
 }
 
+std::string removeSpace(const std::string &x)
+{
+    std::string ans;
+    for (decltype(x.size()) i = 0; i != x.size(); ++i)
+    {
+        if (x[i] != ' ')
+            ans.push_back(x[i]);
+    }
+    return ans;
+}
+
 int main()
 {
-    std::vector<int> a{1, 2, 3, 4};
-    reverseArray(a);
-    for (auto i : a)
-        std::cout << i << std::endl;
+    std::cout << removeSpace("8 j 8   mBliB8g  imjB8B8  jl  B");
     return 0;
 }
