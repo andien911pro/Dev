@@ -2,44 +2,83 @@
 #include <unordered_map>
 #include <vector>
 #include <string>
+#include "stdint.h"
+#include "string.h"
 
-std::vector<int> reverseArray(std::vector<int> &a) {
-    int temp;
-    int n = a.size() - 1, i = 0;
-    /* for (int i = 0; i != a.size(); ++i) */
-    /* { */
-    /*     if (i < n) */
-    /*     { */
-    /*         temp = a[i]; */
-    /*         a[i] = a[n]; */
-    /*         a[n - 1] = temp; */
-    /*     } */
-    /*     --n; */
-    /* } */
-    while (i < n)
+constexpr size_t sz = 100;
+
+bool kiemTraDinhDang(char *s)
+{
+    if (s[0] != 'D')
     {
-        temp = a[i];
-        a[i] = a[n];
-        a[n] = temp;
-        ++i;
-        --n;
+        return 0;
     }
-    return a;
+    if (s[1] != 'H')
+    {
+        return 0;
+    }
+    if (s[2] != '5')
+    {
+        return 0;
+    }
+    for (int i = 3; s[i] != '\0'; ++i)
+    {
+        if (s[i] < '0' || s[i] > '9')
+            return 0;
+    }
+    return 1;
 }
 
-std::string removeSpace(const std::string &x)
+char *toUpper(char *s)
 {
-    std::string ans;
-    for (decltype(x.size()) i = 0; i != x.size(); ++i)
+    s[0] -= 32;
+    for (int i = 0; s[i] != '\0'; ++i)
     {
-        if (x[i] != ' ')
-            ans.push_back(x[i]);
+        if ((s[i] >= 'a' || s[i] <= 'z') && s[i] == ' ')
+        {
+            s[i + 1] -= 32;
+        }
     }
-    return ans;
+    return s;
+}
+
+
+char *tachTen(char *s)
+{
+    char *arr = new char(strlen(s) + 1);
+    arr = s;
+    int cnt = 0;
+    int space = 0;
+    for (int i = 0; s[i] != '\0'; ++i)
+    {
+        if (s[i] == ' ')
+            ++cnt;
+    }
+
+    for (int i = 0; s[i] != '\0'; ++i)
+    {
+        if (s[i] == ' ')
+            ++space;
+        if (space == cnt)
+        {
+            arr[i] = s[i + 1];
+        }
+    }
+    for (int i = 0; i != strlen(arr); ++i)
+        std::cout << arr[i];
+    return arr;
 }
 
 int main()
 {
-    std::cout << removeSpace("8 j 8   mBliB8g  imjB8B8  jl  B");
+    char mssv[] = "DH52005758";
+    char s[] = "nguyen vu an dien";
+    tachTen(s);
+    /* for (int i = 0; s[i] != '\0'; ++i) */
+    /*     std::cout << s[i]; */
+    /* if (kiemTraDinhDang(mssv)) */
+    /*     std::cout << "Dung dinh dang"; */
+    /* else */
+    /*     std::cout << "Sai dinh dang"; */
     return 0;
 }

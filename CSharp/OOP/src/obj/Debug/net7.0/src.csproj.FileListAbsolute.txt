@@ -1,0 +1,15 @@
+/home/andy/Dev/CSharp/OOP/src/bin/Debug/net7.0/src
+/home/andy/Dev/CSharp/OOP/src/bin/Debug/net7.0/src.deps.json
+/home/andy/Dev/CSharp/OOP/src/bin/Debug/net7.0/src.runtimeconfig.json
+/home/andy/Dev/CSharp/OOP/src/bin/Debug/net7.0/src.dll
+/home/andy/Dev/CSharp/OOP/src/bin/Debug/net7.0/src.pdb
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.csproj.AssemblyReference.cache
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.GeneratedMSBuildEditorConfig.editorconfig
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.AssemblyInfoInputs.cache
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.AssemblyInfo.cs
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.csproj.CoreCompileInputs.cache
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.dll
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/refint/src.dll
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.pdb
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/src.genruntimeconfig.cache
+/home/andy/Dev/CSharp/OOP/src/obj/Debug/net7.0/ref/src.dll

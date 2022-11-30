@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "24kH75QDhnXT8depxTZd3m2YdbJcYc3Ro/N/M9+Zj0oZ/kujKdzo1li6rHk47kNxySzrNFEc0EBnZWdicH+80A==",
+  "success": true,
+  "projectFilePath": "/home/andy/Dev/CSharp/OOP/src/src.csproj",
+  "expectedPackageFiles": [
+    "/home/andy/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.0/microsoft.aspnetcore.app.ref.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
