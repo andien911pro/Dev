@@ -251,7 +251,7 @@ section p
 .menu .menu_box .menu_card
 {
     width: 325px;
-    height: 480px;
+    height: 520px;
     padding-top: 10px;
     margin-bottom: 200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -271,9 +271,160 @@ section p
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: 0.3s;
 }
 
 .menu .menu_box .menu_card .menu_image:hover img
 {
     transform: scale(1.1);
+}
+
+.menu .menu_box .menu_card .small_card
+{
+    width: 45px;
+    height: 45px;
+    float: right;
+    position: relative;
+    top: -240px;
+    right: -8px;
+    opacity: 0;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.menu .menu_box .menu_card:hover .small_card
+{
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+}
+
+.menu .menu_box .menu_card .small_card i
+{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    color: black;
+    cursor: pointer;
+    text-shadow: 0 0 6px black;
+    transition: 0.2s;
+}
+
+.menu .menu_box .menu_card .small_card i:hover
+{
+    color: #fac031;
+}
+
+.menu .menu_box .menu_card .menu_info h2
+{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: #fac031;
+}
+
+.menu .menu_box .menu_card .menu_info p
+{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+}
+
+.menu .menu_box .menu_card .menu_info .menu_icon
+{
+    color: #fac031;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.menu .menu_box .menu_card .menu_info .menu_btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 8px 10px;
+    margin: 0 80px;
+    transition: 0.3s;
+}
+
+/* footer */
+
+footer
+{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background-color: #eeeeee;
+}
+
+footer .footer_main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag
+{
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2
+{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p 
+{
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i
+{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .footer_tag i:hover
+{
+    color: #fac031;
+}
+
+footer .end 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .end:nth-of-type(2)
+{
+    padding: 15px 0 15px 0;
+}
+
+footer .end span
+{
+    color: #fac031;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fac031;
+    border-radius: 15px;
 }
