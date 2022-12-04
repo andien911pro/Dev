@@ -363,10 +363,144 @@ section p
     transition: 0.3s;
 }
 
+/* giap lam them o day */
+/* =============================================================================================== */
+/* about content */
+.comback_main_page{
+    margin-left: 10%;
+}
+.comback_main_page a{
+    text-decoration: none;
+    color: #c8c8c8;
+}
+.about_content h1{
+    text-align: center;
+}
+.about_content p{
+    width: 80%;
+    margin: 0px 0px 18px 10%;
+}
+/* =============================================================================================== */
+/* food detail is here ne ĐIỂN */
+
+/* =============================================================================================== */
+/* SEARCH */
+.menu_btn{
+    text-decoration: none;
+    color: #111;
+}
+.search{
+    min-height: 250px;
+    width: 100%;
+    background-color: #f2f2f2;
+    
+ 
+}
+.search_text{
+    top: 10px;
+    font-family: tahoma;
+    font-size: 2em;
+    text-align: center;
+}
+.search_area{
+    margin: 20px;
+
+    border-radius: 3em;
+    width: 100%;
+}
+
+.search_area input{
+    width: 50%;
+    border: solid 1px #c8c8c8;
+    border-radius: 25px;
+    min-height: 47px;
+    padding: 5px 5px 5px 20px;
+    background-color: white;
+}
+.search_area img{
+    width: 20px;
+    height: 20px;
+}
+
+.search_btn button{
+    width: 20%;
+    min-height: 43px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    font-family: tahoma;
+    font-size: 20px;
+    background-color: #f4cd34;
+    
+}
+.search_btn button:hover{
+    background-color: #d0ac1d;
+}
+
+/* CONTACT FORM HERE BY GIAPGIAP============================================================================================== */
+.contact_form_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    background-color: #e9e6e6;
+}
+
+.contact_first_text{
+    padding-top: 50px;
+    /* display: inline-block; */
+    text-align: center;
+    width: 100%;
+    min-height: 50px;
+    font-size: 2em;
+    background-color: #e9e6e6;
+}
+.contact_text_left{
+    font-size: 20px;
+}
+.contact_form_left img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.contact_form_right{
+    width: 800px;
+}
+.contact_name_email{
+    display: flex;
+    justify-content: space-around;
+}
+.contact_name_email input{
+    width: 380px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    border: solid black 1px;
+}
+
+.contact_comment textarea{
+    width: 780px;
+    margin: 10px ;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.contact_form_right button{
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.contact_form_right button:hover {
+    background-color: #111;
+    color: #c8c8c8;
+}
+
 /* footer */
 
 footer
 {
+    margin-top: 2%;
     width: 100%;
     padding: 30px 0 0 20px;
     background-color: #eeeeee;

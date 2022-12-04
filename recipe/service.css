@@ -1,0 +1,102 @@
+.service_content{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    min-height: 500px;
+    margin: 50px 0px 0px 10%;
+}
+
+
+/* css left is here=========================================================================================== */
+.service_content_left{
+    flex: 2;
+    padding: 0px 50px 0px 0px;
+    color: #111;
+}
+.service_content_left h1{
+    text-align: center;
+    margin-bottom: 26px;
+}
+.service_content_left p{
+    margin-bottom: 20px;
+}
+.text_caption{
+    color: #999;
+    margin: 10px 0px;
+    text-align: center;
+}
+.main_text{
+    font-weight: bold;
+}
+.service_content_left ul {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+.service_content_left li{
+    margin: 10px 0px;
+}
+
+
+/* css right is here============================================================================================= */
+.service_content_right{
+    border-left: solid 1px #999;
+    margin-right: 40px;
+    flex: 1;
+    display: inline-block;
+    justify-content:center;
+    text-align: center;
+}
+.service_content_right img{
+    /* margin-left: 25%; */
+    width: 50%;
+    height: 180px;
+    
+}
+.service_right_input input{
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border:solid rgb(123, 123, 123) 1px;
+}
+.service_right_btn button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    background-color: #f4cd34;
+}
+.service_right_btn button:hover{
+    background-color: #d0ac1d;
+    color: black;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+/* css right connect text here====================================================================================== */
+.signup_or{
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+    padding: 20px ;
+    position: relative;
+}
+.signup_or span{
+    display: inline-block;
+    padding: 5px 30px;
+    background-color: #fff;
+    position: relative;
+    z-index: 9999;
+}
+.signup_or::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
